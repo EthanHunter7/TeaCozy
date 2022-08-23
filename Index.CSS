@@ -1,0 +1,145 @@
+
+/*Browser Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    opacity: 0.9;
+    color:seashell;
+    text-align:center;
+}
+/* Global Styles*/
+
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1.15;
+}
+
+body {
+    margin: 0;
+  }
+  main{
+    padding-top: 69px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+/*Header Styles*/ 
+header{
+    opacity: 1;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+
+.teacozy{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-flex;
+    padding-right: 25px;
+}
+
+.nav a{
+    text-decoration: underline;
+    color: seashell;
+}
+
+.nav a:hover{
+    opacity: 0.5;
+}
+
+/*Our Mission Styles*/
+h2{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.mission{
+    width: 90%;
+    max-height: 700px;
+    max-width: 1200px;
+    flex-direction: column;
+    background-image: url(./Resources/Images/img-mission-background.JPEG);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.goals{
+    width: 100%;
+    padding: 0.5%;
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+}
+
+/* Tea of the Month Styles*/
+.tea-container{
+    margin-top: 70px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+.berry{
+    margin-right: 15px;
+}
+
+.rum{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.donut{
+    margin-left: 15px;
+}
+
+.myrtle{
+    margin-right: 15px;
+}
+
+.bedford{
+    margin-left: 15px;
+}
+
+
+
