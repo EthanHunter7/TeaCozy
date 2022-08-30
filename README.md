@@ -9,4 +9,4 @@ I also decided to make it resposive using CSS FlexBox and Media so it can adjust
 ![Design Spec](Resources/Design%20Spec/img-tea-cozy-redline.jpg)
 
 ## Demo Website
-You can view the demo website [here]()
+You can view the demo website [here](https://ethanhunter7.github.io/TeaCozy/)
