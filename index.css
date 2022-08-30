@@ -131,7 +131,7 @@ h4{
     justify-content: center;
     align-items: center;
     flex: 1 1200px;
-    background-image: url(/Resources/Images/img-locations-background.JPEG);
+    background-image: url(./Resources/Images/img-locations-background.JPEG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
