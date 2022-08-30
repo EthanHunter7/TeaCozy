@@ -20,6 +20,7 @@ body {
     
     margin: 0;
   }
+
   main{
     padding-top: 69px;
     display: flex;
@@ -119,6 +120,7 @@ h4{
     margin: 0.5%;
 }
 
+
 .location-container{
     margin-top: 69px;
     width: 90%;
@@ -154,7 +156,7 @@ h4{
 
 .address{
     width: 300px;
-    height: 300px;
+    max-height: 300px;
     flex-shrink: 1;
     opacity: 1;
     margin: 0px 20px 20px 20px;
@@ -175,3 +177,34 @@ footer p {
     left: 20px;
     padding-bottom: 10px;
 }
+
+@media only screen and (max-width: 1133px){
+    .location-container{
+        max-height: 1030px;
+    } 
+}
+
+@media only screen and (max-width: 960px) {
+    .location-container{
+        max-height: 1030px;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .location-container{
+        max-height: 1030px;
+    }
+
+    .teacozy{
+        width: 120px;
+        height: 40px;
+    }
+    nav{
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul{
+        margin-left: 50px;
+    }
+    
+  }
