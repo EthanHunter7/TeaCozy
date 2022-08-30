@@ -139,6 +139,9 @@ h4{
     margin-bottom: 15px;
     background-color: transparent;
 }
+.location-container h2{
+    background-color: transparent;
+}
 
 .address-container{
     display: flex;
@@ -146,14 +149,29 @@ h4{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-color: transparent;
 }
 
 .address{
     width: 300px;
     height: 300px;
     flex-shrink: 1;
-    margin: 0 20px 20px 20px;
     opacity: 1;
+    margin: 0px 20px 20px 20px;
+    line-height: 70px;
 }
 
+.contact{
+    height: 200px;
+    margin-top: 10px;
+}
 
+.contact h5{
+    margin-bottom: 20px;
+}
+
+footer p {
+    position: absolute;
+    left: 20px;
+    padding-bottom: 10px;
+}
